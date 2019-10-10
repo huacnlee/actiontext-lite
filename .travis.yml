@@ -1,0 +1,16 @@
+language: ruby
+env:
+  - USE_OFFICIAL_GEM_SOURCE=1
+
+services:
+  - postgresql
+
+rvm:
+  - 2.6.3
+
+before_script:
+  - bundle install
+  - RAILS_ENV=test bundle exec rake db:create
+  - RAILS_ENV=test bundle exec rake db:migrate
+
+script: RAILS_ENV=test rake test
