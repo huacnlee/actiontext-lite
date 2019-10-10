@@ -2,7 +2,7 @@
 
 Lite version of the ActionText.
 
-[ActionText Lite 中文说明)(https://ruby-china.org/topics/39130)
+[ActionText Lite 中文说明](https://ruby-china.org/topics/39130)
 
 ## Why use Lite version?
 
