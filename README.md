@@ -2,6 +2,8 @@
 
 Lite version of the ActionText.
 
+[ActionText Lite 中文说明)(https://ruby-china.org/topics/39130)
+
 ## Why use Lite version?
 
 - Action Text integration Trix by default, but that not useful, our users and editors does not like it 😩.
