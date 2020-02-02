@@ -18,7 +18,9 @@ module ActionTextLite
           end
         CODE
 
-        has_one :"rich_text_#{name}", -> { where(name: name) }, class_name: "ActionTextLite::RichText", as: :record, inverse_of: :record
+        has_one :"rich_text_#{name}", -> { where(name: name) },
+                class_name: "ActionTextLite::RichText", as: :record, inverse_of: :record, autosave: true, dependent: :destroy
+            
         scope :"with_rich_text_#{name}", -> { includes("rich_text_#{name}") }
 
         after_save do
