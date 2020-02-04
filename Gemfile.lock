@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    actiontext-lite (0.0.1)
+    actiontext-lite (0.0.2)
       actiontext (>= 6.0)
 
 GEM
@@ -141,4 +141,4 @@ DEPENDENCIES
   rails (= 6.0.0)
 
 BUNDLED WITH
-   2.0.2
+   2.1.4
